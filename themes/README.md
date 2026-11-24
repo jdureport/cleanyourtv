@@ -115,6 +115,7 @@ A new key needs one there in the same pull request.
 | `columns` | 1 to 8 | Tiles per row; tiles shrink to fit from 5 up |
 | `rows_below_dock` | 0 to 3 | Grid rows left visible under the dock; tiles shrink if the dock, its title and that many rows would not fit the screen height |
 | `dock_title` | bool | The focused dock app's name in large type above the dock (`true`); `false` keeps only the glow |
+| `uz_new_alphabet` | bool, `config.xml` only | When the TV's language is Uzbek, the date on Home and on the Clock screensaver is written in the 2026 Uzbek Latin alphabet: the weekday and month names Android formats (seshanba, chorshanba) show as seşanba, çorşanba (`false` by default). Not read from a theme |
 | `dock_row` | bool | The dock as its own row with a band (`true`); `false` makes the dock apps the first tiles of one plain grid |
 | `reorder_button` | bool | A reorder button in the top bar (`false` by default); reordering is always in the Settings button's long-press menu |
 | `show_network_pill` | bool | The Wi-Fi/Ethernet pill in the top bar (`true` by default); `false` hides it |
