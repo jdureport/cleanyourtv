@@ -266,7 +266,7 @@
                             android:includeFontPadding="false"
                             android:visibility="gone" />
 
-                        <TextClock
+                        <com.gathin.tvhome.UzDateClock
                             android:id="@+id/date"
                             android:gravity="left"
                             android:layout_width="match_parent"
